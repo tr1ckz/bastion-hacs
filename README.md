@@ -19,7 +19,7 @@ through Cloudflare Tunnel as well as on the LAN.
 4. **Settings → Devices & Services → Add Integration → Bastion Backup Gateway**
 5. Enter:
    - **Bastion API URL** — e.g. `https://bastion.example.com` or `http://192.168.1.50:8000`
-   - **Ingress bearer token** — the value of `BASTION_INGRESS_TOKEN` on the Bastion server
+   - **Ingress bearer token** — generate this in Bastion under **Settings → Home Assistant → Generate Token**
 
 The integration validates connectivity against `GET /api/ingress/healthz`
 before saving.
