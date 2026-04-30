@@ -7,7 +7,8 @@
   "codeowners": ["@tr1ckz"],
   "config_flow": true,
   "iot_class": "cloud_push",
-  "integration_type": "service",
+  "integration_type": "hub",
+  "icon": "mdi:shield-server",
   "dependencies": ["backup"],
   "requirements": [],
   "after_dependencies": ["backup"]
