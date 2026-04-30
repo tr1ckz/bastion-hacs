@@ -1,5 +1,9 @@
 # Bastion Backup Gateway
 
+<p align="center">
+  <img src="./logo.png" alt="Bastion" width="180" />
+</p>
+
 Home Assistant custom integration that registers
 [Bastion](https://github.com/McGeaverBeaver/Bastion) as a native **Backup
 Agent**. When Home Assistant produces a backup (manual or scheduled), this
