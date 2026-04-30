@@ -1,0 +1,14 @@
+{
+  "domain": "bastion_gateway",
+  "name": "Bastion Backup Gateway",
+  "version": "0.1.0",
+  "documentation": "https://github.com/tr1ckz/bastion-hacs",
+  "issue_tracker": "https://github.com/tr1ckz/bastion-hacs/issues",
+  "codeowners": ["@tr1ckz"],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "integration_type": "service",
+  "dependencies": ["backup"],
+  "requirements": [],
+  "after_dependencies": ["backup"]
+}
