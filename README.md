@@ -1,7 +1,7 @@
 # Bastion Backup Gateway
 
 <p align="center">
-  <img src="./logo.png" alt="Bastion" width="180" />
+  <img src="./custom_components/bastion_gateway/brand/icon.png" alt="Bastion" width="180" />
 </p>
 
 Home Assistant custom integration that registers
